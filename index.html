@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+
+<body>
+	<div id="app">
+		<button id="toggle">Toggle</button>
+		<div id="build">
+			<div id="elements">
+				<div class="block size1 element" id="block1"> </div>
+				<div class="block size2 element" id="block2"> </div>
+				<div class="block size3 element" id="block3"> </div>
+				<div class="coin element" id="coin"> </div>
+			</div>
+		</div>
+		<div id="game">
+			<div id="player"></div>
+			<div id="playerDebugger"></div>
+			<div id="level"></div>
+		</div>
+		<div class="controls">
+			<div>
+				<textarea id="levelJson" readonly></textarea>
+			</div>
+		</div>
+	</div>
+	<script src="src/index.ts"></script>
+</body>
+
+</html>
